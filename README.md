@@ -28,8 +28,8 @@ Example:
 - For Saltychat distance settings, you need to enter the saltychat config.json file and enter the distances one by one in Config.SaltychatRange as follows
 
 ```
-    Element (Example "Whisper") 1 => It is the name of distance
-    Element (Example 30) 2 => This part accepts only numbers and lengthens or shortens in the microphone bar in the hud according to the distance
+    Element 1 (Example "Whisper") => It is the name of distance
+    Element 2 (Example 30) => This part accepts only numbers and lengthens or shortens in the microphone bar in the hud according to the distance
 
     Config.SaltychatRange = {
         ["3.0"]  = { "Whisper",  30},
