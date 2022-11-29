@@ -23,6 +23,21 @@ Example:
     TriggerClientEvent('wais:notification', source, text, type, duration)
 ```
 
+# Saltychat Range
+
+- For Saltychat distance settings, you need to enter the saltychat config.json file and enter the distances one by one in Config.SaltychatRange as follows
+
+```
+    Args 1 => It is the name of distance
+    Args 2 => This part accepts only numbers and lengthens or shortens in the microphone bar in the hud according to the distance
+
+    Config.SaltychatRange = {
+        ["3.0"]  = { "Whisper",  30},
+        ["7.0"]  = { "Normal",   65},
+        ["15.0"] = { "Shouting", 100},
+    }
+```
+
 # CONTACT
 
 If there is a problem or you want to ask a question Discord: Ayazwai#3900 or [Discord 0RESMON](discord.gg/0resmon)
