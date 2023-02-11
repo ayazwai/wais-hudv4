@@ -8,6 +8,9 @@ Example:
 ```
     TriggerEvent('wais:hudHide', true or false) Only using boolean value
     TriggerClientEvent('wais:hudHide', source, true or false) Only using boolean value
+    
+    TriggerEvent('wais:hideRadar', true or false) Only using boolean value
+    TriggerClientEvent('wais:hideRadar', source, true or false) Only using boolean value
 ```
 
 # Use of Notification
